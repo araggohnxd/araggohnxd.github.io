@@ -14,6 +14,12 @@
     transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;;
 }
 
+.main-button.-full {
+    font-family: 'Fira Code', serif;
+    width: 100%;
+    border: none;
+}
+
 .main-button:hover {
     transform: scale(1.08);
     background-color: #C4C4C4;
