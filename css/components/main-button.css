@@ -11,6 +11,7 @@
     line-height: 60px;
     box-shadow: 5px 5px 0px #000;
     margin: 0;
+    cursor: pointer;
     transition: transform 250ms cubic-bezier(.25,.1,.11,2.43), background-color 250ms ease-in-out, box-shadow 250ms ease-in-out;;
 }
 
@@ -24,4 +25,8 @@
     transform: scale(1.08);
     background-color: #C4C4C4;
     box-shadow: 10px 10px 0px #000;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.02);
 }
